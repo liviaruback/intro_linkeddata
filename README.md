@@ -11,15 +11,17 @@ Go to the [DBPedia SPARQL endpoind](https://dbpedia.org/sparql).
 
 Run the query above on the endpoint to get all universities around the world :mag:
 
-`SELECT ?univ ?numPgs ?country ?city ?popCity<br>`<br>
+`SELECT `<br>
+`  ?univ ?numPgs ?country ?city ?popCity<br>`<br>
 `WHERE {`<br>
-`  ?univ rdf:type <http://schema.org/CollegeOrUniversity>.  `
-`  ?univ <http://dbpedia.org/ontology/numberOfPostgraduateStudents> ?numPgs.`
-`  ?univ <http://dbpedia.org/property/country> ?country.`
-`  ?univ <http://dbpedia.org/ontology/city> ?city.`
-`  ?city <http://dbpedia.org/ontology/populationTotal> ?popCity`
-` }`
-`ORDER BY desc(?numPgs)`
+`  ?univ rdf:type <http://schema.org/CollegeOrUniversity>.  `<br>
+`  ?univ <http://dbpedia.org/ontology/numberOfPostgraduateStudents> ?numPgs.`<br>
+`  ?univ <http://dbpedia.org/property/country> ?country.`<br>
+`  ?univ <http://dbpedia.org/ontology/city> ?city.`<br>
+`  ?city <http://dbpedia.org/ontology/populationTotal> ?popCity`<br>
+`}`<br>
+`ORDER BY`<br> 
+`  desc(?numPgs)`<br>
 
 Check the results! :shipit:
 
