@@ -2,4 +2,5 @@
 
 ## References for Linked Data principles:
 http://linkeddata.org/
+
 https://www.w3.org/DesignIssues/LinkedData.html
