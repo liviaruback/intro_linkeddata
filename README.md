@@ -1,1 +1,1 @@
-# intro_linkeddata
+# Introduction to Linked Data and Graph Databases
