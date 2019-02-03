@@ -15,7 +15,7 @@ Run the query below on this endpoint to get all universities around the world:
 SELECT 
    ?univ ?numPgs ?country ?city ?popCity
 WHERE {
-   ?univ rdf:type <http://schema.org/CollegeOrUniversity>.  
+   ?univ rdf:type \<http://schema.org/CollegeOrUniversity>.  
    ?univ <http://dbpedia.org/ontology/numberOfPostgraduateStudents> ?numPgs.
    ?univ <http://dbpedia.org/property/country> ?country.
    ?univ <http://dbpedia.org/ontology/city> ?city.
