@@ -11,8 +11,8 @@ Go to the [DBPedia SPARQL endpoind](https://dbpedia.org/sparql).
 
 Run the query above on the endpoint to get all universities around the world :mag:
 
-`SELECT ?univ ?numPgs ?country ?city ?popCity
-WHERE {
+`SELECT ?univ ?numPgs ?country ?city ?popCity<br>
+WHERE {<br>
   ?univ rdf:type <http://schema.org/CollegeOrUniversity>.  
   ?univ <http://dbpedia.org/ontology/numberOfPostgraduateStudents> ?numPgs.
   ?univ <http://dbpedia.org/property/country> ?country.
