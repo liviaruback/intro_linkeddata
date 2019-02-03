@@ -7,9 +7,9 @@ http://linkeddata.org/ <br>
 https://www.w3.org/DesignIssues/LinkedData.html
 
 ## Practice - Part 1:
-Go to the [DBPedia SPARQL endpoind](https://dbpedia.org/sparql).
+Go to the [DBPedia SPARQL endpoind](https://dbpedia.org/sparql) :link:.
 
-Run the query above on the endpoint to get all universities around the world :mag:
+Run the query above on the endpoint to get all universities around the world 
 
 <pre>
 SELECT 
@@ -25,7 +25,6 @@ ORDER BY
    desc(?numPgs)
 </pre>
 
-Check the results! :shipit:
-
+Check the results! :mag:
 
 
