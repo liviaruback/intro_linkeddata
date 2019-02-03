@@ -1,6 +1,7 @@
 # Introduction to Linked Data and Graph Databases
 
-## Download the presentation [here](https://github.com/liviaruback/intro_linkeddata/intro_linked_data.pdf)  (** atualizar versão final PDF**)
+## Download the presentation [here](https://github.com/liviaruback/intro_linkeddata/blob/master/intro_linked_data.pdf)  (** atualizar versão final PDF**)
+
 
         
       
