@@ -1,4 +1,4 @@
-# Introduction to Linked Data and Graph Databases
+# Introduction to Linked Data and Graph Databases by Lívia Ruback
 
 ## Download the [presentation](https://github.com/liviaruback/intro_linkeddata/raw/master/intro_linked_data.pdf)  (** atualizar versão final PDF**)
 
@@ -9,7 +9,7 @@ https://www.w3.org/DesignIssues/LinkedData.html
 ## Practice - Part 1:
 Go to the [DBPedia SPARQL endpoind](https://dbpedia.org/sparql) :link:.
 
-Run the query above on the endpoint to get all universities around the world 
+Run the query below on this endpoint to get all universities around the world: 
 
 <pre>
 SELECT 
