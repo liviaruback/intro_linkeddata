@@ -3,7 +3,7 @@
 ## Download the [presentation](https://github.com/liviaruback/intro_linkeddata/raw/master/intro_linked_data.pdf)  (atualizar versão final)
 
 ## References for Linked Data:
-[Linked Data - Design Issues](https://www.w3.org/DesignIssues/LinkedData.html)
+[Linked Data - Design Issues](https://www.w3.org/DesignIssues/LinkedData.html)<br>
 [The Linked Open Data cloud](https://lod-cloud.net/)
 
 ## Practice - Part 1:
