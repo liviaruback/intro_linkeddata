@@ -1,6 +1,6 @@
 # Introduction to Linked Data and SPARQL by Lívia Ruback
 
-## Download the [presentation](https://github.com/liviaruback/intro_linkeddata/raw/master/intro_linked_data.pdf)  (atualizar versão final)
+## Download the [presentation](https://github.com/liviaruback/intro_linkeddata/raw/master/intro_linked_data.pdf)  
 
 ## References for Linked Data:
 [Linked Data - Design Issues](https://www.w3.org/DesignIssues/LinkedData.html)<br>
@@ -31,20 +31,39 @@ WHERE{
 Check the results! :mag:
 
 
+### 3) How many universities are in the world?
+
+Go to the [DBPedia SPARQL endpoind](https://dbpedia.org/sparql) :link:.
+
+Copy and paste the following SPARQL query:
+
+```sparql
+SELECT (COUNT(?univ) AS ?count)
+WHERE {
+   ?univ rdf:type <http://dbpedia.org/ontology/University>.     
+}
+
+```
+Check the results! :mag:
+
+### 4) Give me the universities with more than 20k postgraduate students
+
+
+Go to the [DBPedia SPARQL endpoind](https://dbpedia.org/sparql) :link:.
+
+Copy and paste the following SPARQL query:
+
 ```sparql
 SELECT 
-   ?univ ?numPgs ?country ?city ?popCity
+   ?univ ?numPgs 
 WHERE {
-   ?univ rdf:type <http://schema.org/CollegeOrUniversity>.  
+   ?univ rdf:type <http://dbpedia.org/ontology/University>.  
    ?univ <http://dbpedia.org/ontology/numberOfPostgraduateStudents> ?numPgs.
-   ?univ <http://dbpedia.org/property/country> ?country.
-   ?univ <http://dbpedia.org/ontology/city> ?city.
-   ?city <http://dbpedia.org/ontology/populationTotal> ?popCity
+   FILTER (?numPgs > 20000) 
  }
 ORDER BY 
    desc(?numPgs)
 ```
-
-
+Check the results! :mag:
 
 
