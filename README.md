@@ -1,5 +1,4 @@
 # Introduction to Linked Data and SPARQL by Lívia Ruback
-## Part 1 of the Linked Data Specialization
 
 ## Download the [presentation](https://github.com/liviaruback/intro_linkeddata/raw/master/intro_linked_data.pdf)  (atualizar versão final)
 
