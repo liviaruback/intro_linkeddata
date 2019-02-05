@@ -67,3 +67,26 @@ ORDER BY
 Check the results! :mag:
 
 
+### Other SPARQL queries:
+
+Give me the universities in the United States
+
+```sparql
+SELECT ?univ 
+WHERE {
+   ?univ rdf:type <http://dbpedia.org/ontology/University>.
+   ?univ <http://dbpedia.org/property/country> "United States"^^<http://www.w3.org/1999/02/22-rdf-syntax-ns#langString>.   
+}
+```
+
+Give me the universities in the city of Paris
+
+```sparql
+SELECT ?univ 
+WHERE {
+   ?univ rdf:type <http://dbpedia.org/ontology/University>.
+   ?univ <http://dbpedia.org/ontology/city> <http://dbpedia.org/resource/Paris>.   
+}
+```
+
+
