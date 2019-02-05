@@ -69,7 +69,7 @@ Check the results! :mag:
 
 ### Other SPARQL queries:
 
-Give me the universities in the United States
+Give me all universities located in the United States
 
 ```sparql
 SELECT ?univ 
@@ -79,7 +79,7 @@ WHERE {
 }
 ```
 
-Give me the universities in the city of Paris
+Give me all universities located in the city of Paris
 
 ```sparql
 SELECT ?univ 
