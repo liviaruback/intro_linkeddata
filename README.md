@@ -86,6 +86,7 @@ SELECT ?univ
 WHERE {
    ?univ rdf:type <http://dbpedia.org/ontology/University>.
    ?univ <http://dbpedia.org/ontology/city> <http://dbpedia.org/resource/Paris>.   
+   <http://dbpedia.org/ontology/painter>
 }
 ```
 
