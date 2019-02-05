@@ -1,4 +1,5 @@
-# Introduction to Linked Data and Graph Databases by Lívia Ruback
+# Introduction to Linked Data and SPARQL by Lívia Ruback
+## Part 1 of the Linked Data Specialization
 
 ## Download the [presentation](https://github.com/liviaruback/intro_linkeddata/raw/master/intro_linked_data.pdf)  (atualizar versão final)
 
@@ -9,7 +10,16 @@
 ## Practice - Part 1:
 Go to the [DBPedia SPARQL endpoind](https://dbpedia.org/sparql) :link:.
 
-Run the query below on this endpoint to get all universities around the world: 
+**Give me all the properties about Stanford University **
+
+```
+SELECT ?p ?o
+WHERE{ 
+  <http://dbpedia.org/resource/Stanford_University> ?p ?o
+}
+
+```
+
 
 ```sparql
 SELECT 
