@@ -9,9 +9,9 @@
 ## Practice - Part 1:
 Go to the [DBPedia SPARQL endpoind](https://dbpedia.org/sparql) :link:.
 
-**Give me all the properties about Stanford University **
+** Give me all the properties about Stanford University **
 
-```
+```sparql
 SELECT ?p ?o
 WHERE{ 
   <http://dbpedia.org/resource/Stanford_University> ?p ?o
